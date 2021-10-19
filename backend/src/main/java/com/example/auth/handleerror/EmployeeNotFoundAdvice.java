@@ -1,6 +1,6 @@
-package handleerror;
+package com.example.auth.handleerror;
 
-import Exceptions.EmployeeNotFoundException;
+import com.example.auth.Exceptions.EmployeeNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

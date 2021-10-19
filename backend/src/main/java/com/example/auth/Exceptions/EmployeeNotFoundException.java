@@ -1,4 +1,4 @@
-package Exceptions;
+package com.example.auth.Exceptions;
 
 public class EmployeeNotFoundException extends RuntimeException{
     public EmployeeNotFoundException(Long id) {

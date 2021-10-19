@@ -1,9 +1,9 @@
-package controller;
+package com.example.auth.controller;
 
 import java.util.List;
 
-import Exceptions.EmployeeNotFoundException;
-import model.Employee;
+import com.example.auth.Exceptions.EmployeeNotFoundException;
+import com.example.auth.model.Employee;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
-import repository.EmployeeRepository;
+import com.example.auth.repository.EmployeeRepository;
 
 @RestController
 public class EmployeeController {
